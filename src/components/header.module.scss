@@ -1,0 +1,34 @@
+.Header {
+      background-color: #2700b6;
+      box-shadow: 0 2px 5px 1px black;
+      padding: 20px;
+      margin-bottom: 1rem;
+      color: white;
+      font-size: 2rem;
+      display: flex;
+      font-weight: bolder;
+      justify-content: space-between;
+}
+
+a {
+      text-decoration: none;
+      color: inherit;
+}
+
+.RightMenu {
+      i {
+            position: relative;
+            color: black;
+            span {
+                  position: absolute;
+                  right: -1rem;
+                  bottom: -0.5rem;
+                  color: white;
+                  background-color: gray;
+                  border: 2px solid whitesmoke;
+                  font-size: 1.1rem;
+                  padding: 0.2rem 0.5rem 0.3rem 0.5rem;
+                  border-radius: 50%;
+            }
+      }
+}
